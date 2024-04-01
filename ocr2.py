@@ -8,7 +8,7 @@ import json
 
 def main():
     st.set_page_config(layout="wide") 
-    st.sidebar.image("LM4.png", use_column_width=True, caption="")
+    st.sidebar.image("/media/brunorg/Acer/AzureOCR/LM4.png", use_column_width=True, caption="")
     # Define o layout da página para ocupar a tela inteira
     st.title("Extração de Dados com Inteligência Artificial")
 
@@ -90,3 +90,4 @@ def draw_tables_on_image(image, tables):
 
 if __name__ == "__main__":
     main()
+
