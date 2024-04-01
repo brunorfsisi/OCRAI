@@ -1,4 +1,4 @@
-python-dotenv==0.19.0
+python-dotenv
 altair==5.3.0
 attrs==23.2.0
 azure-ai-formrecognizer==3.3.2
