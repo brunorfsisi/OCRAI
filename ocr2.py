@@ -5,6 +5,9 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.formrecognizer import DocumentAnalysisClient
 import io
 import json
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 def main():
     st.set_page_config(layout="wide") 
